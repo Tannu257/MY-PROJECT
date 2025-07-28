@@ -13,7 +13,7 @@ export function Update(){
         e.preventDefault();
         try
         {
-const response = await axios.put(`http://localhost:3000/api/employees/${id}`,
+const response = await axios.put(`https://my-project-49vm.onrender.com/api/employees/${id}`,
       {
         empName,
         empEmail,
