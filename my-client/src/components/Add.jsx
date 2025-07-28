@@ -11,7 +11,7 @@ export default function Add() {
     e.preventDefault();
     
     try {
-      const response = await axios.post('http://localhost:3000/api/employees',
+      const response = await axios.post('https://my-project-49vm.onrender.com/api/employees',
          { name, email, salary, }
         );
      alert(response.data.message);
