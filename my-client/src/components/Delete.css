@@ -1,0 +1,50 @@
+/* Delete.css */
+
+
+.main-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: #d9534f; /* Bootstrap red shade */
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 30px;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: orange;
+}

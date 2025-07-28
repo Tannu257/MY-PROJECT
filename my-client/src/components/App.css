@@ -1,0 +1,96 @@
+/* App.css */
+
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout container */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+h2 {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  font-size: 26px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav a.active {
+  background-color: #0056b3;
+}
+
+nav a:hover {
+  background-color: #28a745;
+}
+
+/* Main content area */
+main {
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header,nav,footer {
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  nav a {
+    margin: 8px 0;
+  }
+}
