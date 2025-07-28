@@ -9,7 +9,7 @@ export function FindAll() {
     async function findAllHandler(e) {
         e.preventDefault();
         try {
-            const response = await axios.get("http://localhost:3000/api/employees");
+            const response = await axios.get("https://my-project-49vm.onrender.com/api/employees");
             setEmployees(response.data);
         } catch (err) {
             alert(err);
